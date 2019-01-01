@@ -1,0 +1,28 @@
+<!--
+If you want to include any custom html just before </body>, put it in this file.
+Or you can delete these file if you don't need it.
+-->
+<!-- for example, you could include some js libraries:
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.js" integrity="sha256-HdIuWBZj4eftihsoDCJoMYjZi6aNVaw7YlUpzKT3ZxI=" crossorigin="anonymous"></script>
+-->
+
+<footer class="footer">
+  <ul class="footer-links">
+    <li>
+      <a href="{{ .Site.RSSLink }}" type="application/rss+xml" target="_blank"><i class="fa fa-rss"></i> {{ i18n "footerRSS" }}</a>
+    </li>
+    <li>
+      <a href="/blog">Home</a>
+    </li>
+    <li>
+      <a href="{{ .Site.BaseURL }}site-notice">{{ i18n "siteNotice" }}</a>
+    </li>
+  </ul>
+</footer>
+
+</div>
+
+</body>
+<!-- {{ if .Params.mathjax}}{{ partial "math-jax.html" . }}{{ end }} -->
+{{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
+</html>

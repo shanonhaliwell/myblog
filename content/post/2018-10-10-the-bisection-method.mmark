@@ -1,0 +1,22 @@
+---
+title: The Bisection method
+subtitle: Numerical Analysis
+date: 2018-10-10
+katex: true
+markup: mmark
+tags: ["math","Numerical Analysis"]
+---
+
+The **bisection method** is a simple root-finding method. Methods for finding are iterative 
+and try to find an approximate root $$x$$ that fufills $$|f(x)| \leq \epsilon$$, 
+where $$\epsilon$$ is a small number related as *tolerance*.
+
+Being $$f$$ a nonlinear equation and $$[a,b]$$ the interval where the root has to be found, 
+in each iteration, the bisection method algorithm evaluates $$f$$ at the midpoint $$c$$ of 
+the interval $$[a,b]$$ and compares it against the evaluation at $$a$$ and $$b$$. If 
+$$f(c) = 0$$ the problem is solved and the root is $$c$$, otherwise the next iteration will 
+continue with the interval $$[a,c]$$ if $$f(x)$$ changes the sign in the left half interval 
+or with $$[c,b]$$ if it changes in the right half interval. This procedure will continue 
+untill find the root in the iteration or, most commonly, by reaching a minimum interval, 
+defined by the tolerance, where the solution is found, get an approximation of the root as 
+the last midpoint $$c$$.

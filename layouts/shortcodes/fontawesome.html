@@ -1,0 +1,16 @@
+{{ if not (.Page.Scratch.Get "fontawesomeLoaded") }}
+  {{ .Page.Scratch.Set "fontawesomeLoaded" true }}
+  <script defer src="/fontawesome-all.js"></script>
+{{ end }}
+<i class="{{ range .Params }}{{ . }} {{ end }}"></i>
+<!-- <i class="fas {{ range $element := .Params }} fa-{{ $element }} {{ end }}"></i> -->
+
+
+<!-- 
+{{ if .Get 0}}
+  <i class="{{ range .Params }}{{ . }} {{ end }}"></i>
+{{ else }}
+  <span class="shortcode-error">Shortcode usage: &lbrace;&lbrace;&lt; awesome 
+  "far fa-smile-wink" &gt;&rbrace;&rbrace;</span>
+{{ end }}  
+-->

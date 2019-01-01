@@ -1,0 +1,8 @@
+<!-- Load fontawesome without network calss (offline) by getting the SVG version (download 
+    at https://fontawesome.com/icons) then put them in fontawesome folder! -->
+<span class="inline-svg" >
+{{- $fname:=print "fontawesome/" . ".svg" -}}
+{{- $path:="<path" -}}
+{{- $fill:="<path fill=\"currentColor\"" -}}
+{{ replace (readFile $fname) $path $fill | safeHTML }}
+</span>
