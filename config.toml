@@ -6,14 +6,16 @@ DefaultContentLanguage = "en"
 title = "Shanonhaliwell's Blog"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+copyright = "Copyright (c) 2016 - 2018, Shanonhaliwell; all rights reserved."
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+
 
 #[permalinks]
 #  post = "/:year/:month/:slug/"
@@ -24,22 +26,22 @@ pygmentsCodefencesGuessSyntax = true
   blog = "blogs"
 
 [Params]
-  homeTitle = "Simplicity is a virtue" # Set a different text for the header on the home page
-  subtitle = "Hello World"
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  katex = true
-  commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  wordCount = true
-  useHLJS = true
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+    homeTitle = "Simplicity is a virtue" # Set a different text for the header on the home page
+    subtitle = "Hello World"
+    logo = "img/avatar-icon.png" # Expecting square dimensions
+    favicon = "img/favicon.ico"
+    dateFormat = "January 2, 2006"
+    katex = true
+    commit = false
+    rss = true
+    comments = true
+    readingTime = true
+    wordCount = true
+    useHLJS = true
+    socialShare = true
+    delayDisqus = true
+    showRelatedPosts = true
+#    gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
@@ -59,26 +61,26 @@ pygmentsCodefencesGuessSyntax = true
     website = "yourwebsite.com"
     email = "youremail@domain.com"
     facebook = "username"
-    googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
     github = "username"
     gitlab = "username"
     bitbucket = "username"
     twitter = "username"
     reddit = "username"
     linkedin = "username"
-    xing = "username"
+#    xing = "username"
     stackoverflow = "users/XXXXXXX/username"
-    snapchat = "username"
+#    snapchat = "username"
     instagram = "username"
     youtube = "user/username" # or channel/channelname
     soundcloud = "username"
     spotify = "username"
     bandcamp = "username"
-    itchio = "username"
-    vk = "username"
+#    itchio = "username"
+#    vk = "username"
     paypal = "username"
     telegram = "username"
     500px = "username"
+#    googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
 
 [[menu.main]]
     name = "Blog"
