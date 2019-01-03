@@ -50,3 +50,4 @@ truths about human nature, understand the fact that technology can amplify both
 the best and the worst aspects of it, and possibly come together to make big
 sacrifices in order to build a world that’s truly better for all of us. This is
 the “**reckoning**” that I speak of.
+  
