@@ -1,5 +1,6 @@
-#baseurl = "shanonhaliwell.github.io"
-baseurl = "https://shanonhaliwell.github.io/shanonhaliwell.github.io"
+#baseurl = "https://username.github.io"
+baseurl = "https://shanonhaliwell.github.io"
+#baseurl = "https://shanonhaliwell.github.io/shanonhaliwell.github.io"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
@@ -118,4 +119,4 @@ pygmentsCodefencesGuessSyntax = true
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = 3
+weight = 3

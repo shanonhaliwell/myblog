@@ -1,7 +1,7 @@
 ---
 title: To be
 subtitle: ... or not to be?
-date: 2015-02-13
+date: 2016-02-13
 ---
 
 To be, or not to be--that is the question:
